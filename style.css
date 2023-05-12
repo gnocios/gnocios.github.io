@@ -1,0 +1,82 @@
+body {box-sizing: border-box; margin:0;}
+
+.active{color:white;}
+
+nav a{color:darkgray; text-decoration: none;}
+
+nav a:hover{color:white;}
+
+nav{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 15vh;
+    margin: 0%;
+    padding: 3em;
+    z-index: 1;
+    color: white;
+    background-color: #333;
+}
+
+nav a{margin: 1em;}
+nav img{width: 20vh;}
+
+
+.dflex{display: flex;}
+.aflex{display: flex; justify-content: center; align-items: baseline;}
+.flexC{ display: flex; align-items: center; justify-content: space-between;}
+.flex{display: flex; align-items: center; justify-content: center;}
+
+.oradoresContainer{display: flex; justify-content: center;}
+.oradoresContainer img{width: 25vw; margin: -1px; padding: -1px;}
+.oradoresContainer button{font-weight: bolder; margin: 3px; font-size: 0.7em;}
+.orador{ max-width: 25vw; margin: 1em; border: 1px solid gray;}
+.grid{display: grid;}
+.gridC{display: grid; align-items: center; justify-content: center;}
+
+.honoluluContainer{width:100vw; display: flex; margin: 0; padding: 0;}
+.honoluluContainer img{width: 50vw;}
+.honoluluContainer div{width: 50vw; background-color: #333; color: white;}
+
+.formContainer{width: 50vw; gap: 2em;}
+.box{display: flex;gap: 2em; margin: 0 2em 2em 0;}
+
+
+.mp-1{margin: 1em; padding: 1em;}
+.m1{margin: 1em;}
+.p1{padding: 1em;}
+.tc{text-align: center;}
+
+
+.ba1{width: 100vw; filter: brightness(50%)}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+}
+    
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(15%, 25%);
+    text-align: right;
+}
+
+footer{
+    width: 100vw;
+    height: 15vh;
+    margin: 0%;
+    padding: 3em;
+    color: white;
+    background-color:midnightblue;
+}
+
+footer a{margin: 1em;}
+
+footer a{color:darkgray; text-decoration: none;}
+
+footer a:hover{color:white;}
